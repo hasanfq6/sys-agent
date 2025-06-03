@@ -1,0 +1,4 @@
+[console_scripts]
+agent = main:main
+ai-agent = main:main
+aiagent = main:main
