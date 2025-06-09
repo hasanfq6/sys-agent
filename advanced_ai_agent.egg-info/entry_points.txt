@@ -1,4 +1,0 @@
-[console_scripts]
-agent = advanced_ai_agent.cli:cli_main
-ai-agent = advanced_ai_agent.cli:cli_main
-aiagent = advanced_ai_agent.cli:cli_main
