@@ -9,9 +9,9 @@ import os
 from pathlib import Path
 
 # Add the current directory to Python path
-sys.path.insert(0, str(Path(__file__).parent))
+#sys.path.insert(0, str(Path(__file__).parent))
 
-from core.agent import NoStreamAgent
+from .core.agent import NoStreamAgent
 from rich.console import Console
 
 
@@ -40,9 +40,9 @@ Examples:
     )
     
     parser.add_argument(
-        '--max-steps',
+        '--max-steps', '-ms',
         type=int,
-        default=15,
+        default=50,
         help='Maximum number of steps the agent can take (default: 15)'
     )
     
